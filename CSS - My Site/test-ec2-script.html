@@ -1,0 +1,11 @@
+#!/bin/bash
+# Use this script for your user data
+# Install linux
+yum update -y
+yum install -y httpd
+systemctl start httpd
+systemctl enable httpd
+echo "<h1> Hello World from $(hostname -f)</h1>"  > /var/www/html/index.html
+echo "<br/>"  >> /var/www/html/index.html
+echo "<h1 style="background-color:DodgerBlue;">Hello World</h1>"  >> /var/www/html/index.html
+echo "<h1 style="background-color:slateblue;">Click here to create an AMI</h1>">> /var/www/html/index.html

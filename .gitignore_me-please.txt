@@ -1,0 +1,6 @@
+
+#  Files to ignore
+
+
+
+C:\Users\user\Desktop\AWS\1.   AWS files_and_online_blog\AWS 2024\Git repository\CSS - My Site\test-ec2-script.html
